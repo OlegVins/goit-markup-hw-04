@@ -107,6 +107,7 @@ font-weight: 700;
         color: #2e2f42;
         
 }
+
  
 .contacts {
     font-style: normal;
@@ -124,7 +125,8 @@ font-weight: 700;
 .menu-link:hover,
 .menu-link:focus,
 .contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:focus
+ {
     color: #404bbf;
 }
 /* #endregion Header */
@@ -136,6 +138,16 @@ font-weight: 700;
    background-color: #2e2f42; 
    padding-top: 188px;
    padding-bottom: 188px;
+   background-image: linear-gradient(to bottom,
+   rgba(46, 47, 66, 0.7),
+   rgba(46, 47, 66, 0.7)),
+   url("/images/hero-image/people-office\ 1.jpg");
+   max-width: 1440px;
+   margin: 0 auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
 }
 
 .hero-title {

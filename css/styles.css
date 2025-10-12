@@ -163,7 +163,7 @@ font-weight: 700;
    background-color: #2e2f42; 
    padding-top: 188px;
    padding-bottom: 188px;
- background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image/people-office\ 1.jpg);
+ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image/people-office.jpg);
    max-width: 1440px;
    margin: 0 auto;
    background-repeat: no-repeat;
@@ -447,6 +447,10 @@ font-weight: 700;
     align-items: baseline;
 }
 
+.footer-left-content {
+   margin-right: 120px; 
+}
+
 
 .footer-logo {
    display: inline-block;
@@ -466,11 +470,13 @@ font-weight: 700;
         max-width: 264px;
 }
 
+
+
 .footer-right-content {
     display: flex;
     flex-direction: column;
         gap: 16px;
-        margin-left: 120px;
+        
 }
 
 .footer-social-item {
@@ -515,3 +521,5 @@ margin-bottom: 16px;
 
 
 /* #endregion Footer */
+
+
